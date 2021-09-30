@@ -1,2 +1,2 @@
-# THP_Demos_Ressources
-https://rawcdn.githack.com/profprogrammeur/THP_Demos_Ressources/f88e614667cbe875acc793936be1a15b6b8a6a9f/index.html
+Site en ligne :
+https://profprogrammeur.github.io/THP_Demos_Ressources/
