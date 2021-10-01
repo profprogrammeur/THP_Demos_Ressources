@@ -1,3 +1,4 @@
+/* antoine3 */
 @import url('https://fonts.googleapis.com/css2?family=Atma:wght@600&display=swap');
 
 .jumbotron {
@@ -30,4 +31,41 @@ body {
 }
 .orange-team {
     color: #FF6600 !important;
+
+
+  /*   Melina */
+ 
+#center1 {
+    text-align: center;
+}
+
+#center2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-link {
+    text-decoration: none;
+}
+
+#just1 {
+    text-align: justify;
+}
+
+#just2 {
+    text-align: justify;
+}
+
+#just3 {
+    text-align: justify;
+}
+
+#just4 {
+    text-align: justify;
+}
+
+#just5 {
+    text-align: justify;
+
 }
