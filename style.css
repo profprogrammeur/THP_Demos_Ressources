@@ -1,3 +1,40 @@
+/* antoine3 */
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@600&display=swap');
+
+.jumbotron {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(images/header_surf_r.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center
+}
+
+h1 {
+    text-align: center;
+    font-family: 'atma', cursive;
+}
+
+.logo {
+    height: 300px;
+}
+.list-group {
+    font-family: 'atma', cursive;
+
+}
+
+.wrapper{
+    background-color: #FEF6E9 ;
+}
+body {
+    background-color: #FEF6E9 !important;
+}
+.orange-team {
+    color: #FF6600 !important;
+
+
+  /*   Melina */
+ 
 #center1 {
     text-align: center;
 }
@@ -30,4 +67,5 @@
 
 #just5 {
     text-align: justify;
+
 }
