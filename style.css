@@ -1,3 +1,4 @@
+
 /* antoine3 */
 @import url('https://fonts.googleapis.com/css2?family=Atma:wght@600&display=swap');
 
@@ -33,8 +34,12 @@ body {
     color: #FF6600 !important;
 
 
+  
+  
+  
   /*   Melina */
  
+
 #center1 {
     text-align: center;
 }
@@ -48,6 +53,10 @@ body {
 .profile-link {
     text-decoration: none;
 }
+
+
+#just1, #just5, #just2, #just3, #just4 {
+    text-align: justify;
 
 #just1 {
     text-align: justify;
@@ -67,5 +76,6 @@ body {
 
 #just5 {
     text-align: justify;
+
 
 }
