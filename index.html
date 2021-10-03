@@ -35,20 +35,52 @@
     </div>
   </div>
 
+
+    <div class="container mt-5">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Partage</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+            condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
+            sed odio dui. </p>
+          <p><a class="btn btn-secondary" href="#" role="button">Plus de details »</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Proximité</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+            condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
+            sed odio dui. </p>
+          <p><a class="btn btn-secondary" href="#" role="button">Plus de details »</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Professionnel Google</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta
+            felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+            massa justo sit amet risus.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Plus de details »</a></p>
+        </div>
+      </div>
+    
+  
+    
+    </div> <!-- /container -->
+
+
     <!-- PRESENTATIONS -->
        
   <div class="container text-center">
-      <div id="list-rendering" class="  row  py-5 row-cols-1 row-cols-sm-2 row-cols-md-3 " >
-        <div class="card py-3 " style="width: 12rem;" v-for="mous in moussaillons" >
-          <a class="card-img-top text-center grow " :href="mous.imageLink" target="_blank">
+      <div id="list-rendering" class=" row  py-5 " >
+        <div class="card py-3 " style="width: 15rem;" v-for="mous in moussaillons" >
+          <a class="card-img-top text-center " :href="mous.imageLink" target="_blank">
             <img src="pics/animal.png" :style="mous.style">
           </a>
           <div class="card-body ">
             <h3 class="card-title mb-3">{{mous.name}} </h3>                                           
             <p  class="card-text text-start">{{mous.text}} Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus asperiores veritatis ratione, repellendus sed veniam quia nisi sapiente aspernatur? Distinctio.</p>
           </div>
-          <div class="card-footer">
-            <a class="btn btn-social-icon btn-linkedin" :class={'grow':mous.in} href="#" target="_blank">
+          <div class="card-footer ">
+            <a class="btn btn-social-icon btn-linkedin m-3" :class={'grow':mous.in} href="#" target="_blank">
               <span class="fab fa-linkedin fa-3x"></span>
             </a>
             <a class="btn btn-social-icon btn-github " :class={'grow':mous.git} href="#" target="_blank">
@@ -58,6 +90,7 @@
         </div>
       </div>
   </div>
+  
 
 </body>
 	
