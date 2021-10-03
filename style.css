@@ -1,5 +1,4 @@
 
-/* antoine3 */
 @import url('https://fonts.googleapis.com/css2?family=Atma:wght@600&display=swap');
 
 .jumbotron {
@@ -28,9 +27,6 @@ h1,h2,h3 {
     justify-content: center !important;
 }
 
-.wrapper{
-    background-color: #FEF6E9 ;
-}
 body {
     background-color: #FEF6E9 !important;
 }
@@ -64,30 +60,3 @@ color: #FF6600 !important;
     margin: 0 !important;
      border : none !important;
 }
-/* .col{ justify-content: center !important;
-} */
-
-  
-  
-  /*   Melina */
- 
-
-/* #center1 {
-    text-align: center;
-}
-
-#center2 {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-.profile-link {
-    text-decoration: none;
-}
-
-
-#just1, #just5, #just2, #just3, #just4 {
-    text-align: justify;
-} */
-
