@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="https://kit.fontawesome.com/11dc31e084.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+
 
     <link rel="shortcut icon" type="image/png" href="images/favPirate.PNG" />
 
@@ -20,158 +22,116 @@
 
   
   <body>
-  
-    <!-- Exemple hero/jumbotron -->
+
+    <!-- HERO -->
     
-    <div class="jumbotron d-flex align-items-center ">
-        <div class="container">
-          <div class="row">
-            
-          <div class="col-xs-6">
-            <img class="img-responsive rounded logo" src="images/blason.png"
-                alt="logo THP">
-            </div>
-        </div>
-            <h1 class="">Suivez-nous!</h1>
-            <p class=""></p>
-          
-        </div>
-    </div>
-
-
-	<div class="wrapper mt-5">
-		
-       
-  
- 
-    <div>
-        <div class="container px-4 py-3">
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3" id="center1">
-                <div class="col-lg-4">
-                    <a href="#"
-                        target="_blank">
-                        <img src="pics/animal.png" style="filter: hue-rotate(var(--value, 360deg)); --value:300deg";>
-                    </a>
-                    <h2>Jennifer</h2>
-                    <p id="just1">Some representative placeholder content for the three columns of text below the
-                        carousel. This is
-                        the first column.</p>
-                    <a class="btn btn-social-icon btn-linkedin"
-                        href="#" target="_blank">
-                        <span class="fab fa-linkedin fa-3x"></span>
-                    </a>
-                    <a class="btn btn-social-icon btn-github" href="#" target="_blank">
-                        <span class="fab fa-github fa-3x"></span>
-                    </a>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <a href="https://rawcdn.githack.com/MelinaDCB/Surfing-website/c2932fd798a7403b7114ec0339286b8dbdb647ee/index.html"
-                        target="_blank">
-                        <img src="pics/animal.png">
-                    </a>
-                    <h2>Mélina</h2>
-                    <p id="just2">Another exciting bit of representative placeholder content. This time, we've moved on
-                        to the
-                        second column.</p>
-                    <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
-                    <a class="btn btn-social-icon btn-linkedin"
-                        href="https://www.linkedin.com/in/m%C3%A9lina-decombas-4948b3220/" target="_blank">
-                        <span class="fab fa-linkedin fa-3x"></span>
-                    </a>
-                    <a class="btn btn-social-icon btn-github" href="https://github.com/MelinaDCB" target="_blank">
-                        <span class="fab fa-github fa-3x"></span>
-                    </a>
-
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <a href="https://rawcdn.githack.com/christian29200/THP/ee5a1e937e0183b6dfb9be81460aea1230d42722/Jour2THP/home.html"
-                        target="_blank">
-                        <img src="pics/animal.png" style="filter: hue-rotate(var(--value, 360deg)); --value:72deg";>
-                    </a>
-                    <h2>Christian</h2>
-                    <p id="just3">And lastly this, the third column of representative placeholder content.</p>
-                    <a class="btn btn-social-icon btn-linkedin"
-                        href="#" target="_blank">
-                        <span class="fab fa-linkedin fa-3x"></span>
-                    </a>
-                    <a class="btn btn-social-icon btn-github" href="#" target="_blank">
-                        <span class="fab fa-github fa-3x"></span>
-                    </a>
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
-            <div class="row g-4 py-1 row-cols-1 row-cols-lg-3" id="center2">
-                <div class="col-lg-4">
-                    <a href="https://rawcdn.githack.com/profprogrammeur/jeu2/0f94a97ffa3de82ac13ffc823ce1d871503471ee/jeu2.html"
-                        target="_blank">
-                        <img src="pics/animal.png" style="filter: hue-rotate(var(--value, 360deg)); --value:150deg";>
-                    </a>
-                    <h2>Antoine</h2>
-                    <p id="just4">Some representative placeholder content for the three columns of text below the
-                        carousel. This is
-                        the first column.</p>
-                    <a class="btn btn-social-icon btn-linkedin"
-                        href="https://www.linkedin.com/in/antoine-ranaly-24b301222/" target="_blank">
-                        <span class="fab fa-linkedin fa-3x"></span>
-                    </a>
-                    <a class="btn btn-social-icon btn-github" href="https://github.com/profprogrammeur" target="_blank">
-                        <span class="fab fa-github fa-3x"></span>
-                    </a>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <a href="https://rawcdn.githack.com/Jeymak/Page.google/27aed3f85cc39684c7c105b5b42027860f9d11ae/index.html"
-                        target="_blank">
-                        <img src="pics/animal.png" style="filter: hue-rotate(var(--value, 360deg)); --value:220deg";>
-                    </a>
-                    <h2>Jeremy</h2>
-                    <p id="just5">Another exciting bit of representative placeholder content. This time, we've moved on
-                        to the
-                        second column.</p>
-                    <a class="btn btn-social-icon btn-linkedin"
-                        href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-maimona-6b4240222/" target="_blank">
-                        <span class="fab fa-linkedin fa-3x"></span>
-                    </a>
-                    <a class="btn btn-social-icon btn-github" href="https://github.com/MelinaDCB" target="_blank">
-                        <span class="fab fa-github fa-3x"></span>
-                    </a>
-                </div><!-- /.col-lg-4 -->
-            </div>
-        </div>
-    </div>
+  <div class="jumbotron d-flex align-items-center ">
+      <div class="container">
+          <div class="row">       
+              <div class="col-xs-6">
+              <img class="img-responsive rounded logo" src="images/blason.png"
+                  alt="logo THP">
+              </div>
+          </div>
+              <h1 class="">Suivez-nous!</h1>
+              <p class=""></p>   
+      </div>
+  </div>
 
 
 
+    <!-- PRESENTATIONS -->
       
-      
-      
-      
-        <div class="wrapper">
-  
-   <div class="container">
-            
-            <div class="list-group text-center">
-		<a href="https://rawcdn.githack.com/Jenn-source/page_accueil_Google/86802ec2d1f247628f8bb42005f1a2b150d45af7/index.html" class=" list-group-item list-group-item-action list-group-item-success">Jennifer's Google</a>
-		    
-                <a href="https://rawcdn.githack.com/MelinaDCB/Surfing-website/c2932fd798a7403b7114ec0339286b8dbdb647ee/index.html" class=" list-group-item list-group-item-action">Mélina's Surf</a>
+  <div class="wrapper">   
+    
 
 
-                <a href="https://rawcdn.githack.com/christian29200/THP/ee5a1e937e0183b6dfb9be81460aea1230d42722/Jour2THP/home.html"
-                    class="list-group-item list-group-item-action list-group-item-primary">Christian's Google
-                </a>
-                <a href="https://rawcdn.githack.com/Jeymak/Page.google/27aed3f85cc39684c7c105b5b42027860f9d11ae/index.html"
-                    class="list-group-item list-group-item-action list-group-item-secondary">Jérémy's Google</a>
+  <div class="container text-center">
+      <!-- <div id="list-rendering" class="  card-deck row  py-5 row-cols-1 row-cols-sm-2 row-cols-md-3 "> -->
+      <div id="list-rendering" class="  row  py-5 row-cols-1 row-cols-sm-2 row-cols-md-3 " >
+          <!-- <div class="col" v-for="mous in moussaillons" > -->
+              <div class="card py-3 " style="width: 12rem;" v-for="mous in moussaillons" >
+                  <a class="card-img-top text-center grow " :href="mous.imageLink" target="_blank">
+                      <img src="pics/animal.png" :style="mous.style">
+                  </a>
+                  <div class="card-body ">
+                     
+                        <h3 class="card-title">{{mous.name}} </h3> 
+                      
+                      
+                      <p  class="card-text">{{mous.text}} Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus asperiores veritatis ratione, repellendus sed veniam quia nisi sapiente aspernatur? Distinctio.</p>
+                  </div>
+                  <div class="card-footer">
+                      <a class="btn btn-social-icon btn-linkedin" :class={'grow':mous.in} href="#" target="_blank">
+                          <span class="fab fa-linkedin fa-3x"></span>
+                      </a>
+                      <a class="btn btn-social-icon btn-github " :class={'grow':mous.git} href="#" target="_blank">
+                          <span class="fab fa-github fa-3x"></span>
+                      </a>
+                  </div>
+              </div>
+          <!-- </div>        -->
+      </div>
+  </div>
 
-                <a href="https://rawcdn.githack.com/profprogrammeur/jeu2/0f94a97ffa3de82ac13ffc823ce1d871503471ee/jeu2.html"
-                    class="list-group-item list-group-item-action list-group-item-danger">Antoine's Game
-                </a>
-            </div>
-        </div>
-    </div> 
-                
+
 
 	</body>
 	
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+<script>
+    const ListRendering = {
+  data() {
+    return {
+      moussaillons: [
+        {   name: 'Jennifer',
+            imageLink: "",
+            style:"filter: hue-rotate(var(--value, 360deg)); --value:300deg",
+            text: "",
+            in:"",
+            git:"",
+        },
+        {   name: 'Melina',
+            imageLink: "https://rawcdn.githack.com/MelinaDCB/Surfing-website/c2932fd798a7403b7114ec0339286b8dbdb647ee/index.html",
+            style: "",
+            text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+            in: "https://www.linkedin.com/in/m%C3%A9lina-decombas-4948b3220/",
+            git: "https://github.com/MelinaDCB",
+        },
+        { 
+            name: 'Christian',
+            imageLink:"https://rawcdn.githack.com/christian29200/THP/ee5a1e937e0183b6dfb9be81460aea1230d42722/Jour2THP/home.html",
+            style:"filter: hue-rotate(var(--value, 360deg)); --value:72deg",
+            text: "Lorem ipsum dolor sit.",
+            in: "",
+            git: "",       
+        },
+        {
+            name: 'Jeremy',
+            imageLink:"https://rawcdn.githack.com/Jeymak/Page.google/27aed3f85cc39684c7c105b5b42027860f9d11ae/index.html",
+            style: "filter: hue-rotate(var(--value, 360deg)); --value:220deg",
+            text: "",
+            in: "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-maimona-6b4240222/",
+            git: "",
+        },
+        {
+            name: 'Antoine',
+            imageLink: "https://rawcdn.githack.com/profprogrammeur/jeu2/0f94a97ffa3de82ac13ffc823ce1d871503471ee/jeu2.html",
+            style: "filter: hue-rotate(var(--value, 360deg)); --value:150deg",
+            text: "Lorem ipsum dolor sit, lorem ipsum dolor sit. ",
+            in: "https://www.linkedin.com/in/antoine-ranaly-24b301222/",
+            git: "https://github.com/profprogrammeur",
+        },
+      ]
+    }
+  }
+}
+
+
+
+Vue.createApp(ListRendering).mount('#list-rendering')
+</script>
 </html>
 
